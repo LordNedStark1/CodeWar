@@ -3,7 +3,7 @@ package com.example.codewar;
 import org.junit.jupiter.api.Test;
 
 public class CodeWarTest {
-    CodeWarMain codeWar = new CodeWarMain();
+    CodeWar codeWar = new CodeWar();
     @Test
     public void test1(){
         codeWar.ned();

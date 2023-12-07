@@ -2,8 +2,7 @@ package com.example.codewar;
 
 public class CodeWarMain {
 
-    public void ned(){
-
+    public static void main(String[] args) {
+        CodeWar codeWar = new CodeWar();
     }
-
 }
