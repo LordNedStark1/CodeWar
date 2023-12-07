@@ -1,0 +1,2 @@
+public class CodeWarMain {
+}
