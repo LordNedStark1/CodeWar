@@ -1,11 +1,22 @@
 package com.example.codewar;
 
 public class CodeWar {
-    public void ned(){
+    public static int[]squared(int [] original){
+	int [] newArray = new int [original.length];
 
+	for(int i =0; i < original.length; i++){
+		int value = original[i] ;
+		int squaredValue = value * value;
+		newArray[i] = squaredValue;
+	}
+	return newArray;
     }
 
-    public void method2(){
-
+    public static void main(String[] args) {
+        CodeWar codeWar = new CodeWar ();
+	int[] original = {3,4,5,6,7};
+	System.out.print(squared(original));	
     }
+
+
 }

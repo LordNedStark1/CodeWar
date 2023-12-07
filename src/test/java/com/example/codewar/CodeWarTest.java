@@ -12,4 +12,8 @@ public class CodeWarTest {
     public void test2(){
 
     }
+    @Test
+    public void test3(){
+
+    }
 }
