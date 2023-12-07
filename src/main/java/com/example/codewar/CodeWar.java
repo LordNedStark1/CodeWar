@@ -12,10 +12,11 @@ public class CodeWar {
 	return newArray;
     }
 
+
     public static void main(String[] args) {
         
 	int[] original = {3,4,5,6,7};
-	System.out.print(squared(original));	
+	System.out.print(Arrays.toString(squared(original)));	
     }
 
 
